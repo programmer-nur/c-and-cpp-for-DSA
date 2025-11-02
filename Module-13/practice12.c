@@ -4,21 +4,21 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    int star = n;
-    int space =0;
+    int star = 1;
+    int space = n-1;
     for (int i = 1; i <= n; i++)
     {
         for (int j = 0; j < space; j++)
         {
            printf(" ");
         }
-        for (int j = 0; j < star; j++)
+        for (int j = 1; j <= star; j++)
         {
-           printf("*");
+           printf("%d ",j);
         }
         printf("\n");
-        star-=2;
-        space++;
+        star++;
+        space--;
     }
     
     return 0;
