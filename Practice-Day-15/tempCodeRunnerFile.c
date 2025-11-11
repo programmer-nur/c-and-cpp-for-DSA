@@ -1,11 +1,11 @@
-#include <stdio.h>
+ (int i = 0; i < space; i++) {
+      printf(" ");
+    }
 
-int main() {
-  int n;
-  scanf("%d", &n);
-  for (int i = 1; i <= n; i++) {
-    printf("%d ", i);
-  }
+    for (int j = 0; j < star; j++) {
+      printf("*");
+    }
 
-  return 0;
-}
+    printf("\n");
+    star += 2;
+    space--;
