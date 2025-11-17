@@ -1,2 +1,2 @@
 
-  case 6:
+  return 0;
