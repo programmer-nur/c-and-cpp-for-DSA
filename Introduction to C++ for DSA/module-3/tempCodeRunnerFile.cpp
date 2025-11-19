@@ -1,0 +1,1 @@
+ << student2.name << " " << student2.roll << " " << student2.gpa << endl;
