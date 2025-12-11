@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int r;
+
+    cin >> r;
+
+    if(r > 100){
+        cout << 0 <<endl;
+    }else if(r >= 1 && r <= 50){
+        cout << 100 <<endl;
+    }else if(r > 50 || r >= 100){
+        cout << 50 <<endl;
+    }
+ return 0;
+}
